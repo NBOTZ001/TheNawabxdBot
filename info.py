@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '24363060'))
 API_HASH = environ.get('API_HASH', '2403084c19a00e8f07874b15ba01557b')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6746522771:AAHxk4otv7TXz-XBZfRo7W1_azLYUopNj9E")
+BOT_TOKEN = environ.get('BOT_TOKEN', "6746522771:AAFMYfaRJvlUrzZZc5bT4ongJWuTK7Z-mz8")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -61,7 +61,7 @@ HOWTOVERIFY = environ.get('HOWTOVERIFY','https://t.me/nawabbotupdate/15') # How 
 # Others
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'zipshort.net')
 SHORTLINK_API = environ.get('SHORTLINK_API', '6484c1a6c73a7f077ae8687d7b6cf4f5f7ce565a')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
