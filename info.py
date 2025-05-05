@@ -29,8 +29,8 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://telegra.ph/file/734170f40b8
 CODE = (environ.get('CODE', 'https://telegra.ph/file/72f425007b22d28bd935e.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'zipshort.net'))
-STREAM_API = (environ.get('STREAM_API', '6484c1a6c73a7f077ae8687d7b6cf4f5f7ce565a'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'smallshorts.com'))
+STREAM_API = (environ.get('STREAM_API', 'c632738c0c95a1750a15a120d6ac5f26a2ffb756'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/nawabbotupdate/15'))
 
 # Admins, Channels & Users
@@ -59,8 +59,8 @@ VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( F
 HOWTOVERIFY = environ.get('HOWTOVERIFY','https://t.me/nawabbotupdate/15') # How to open tutorial link for verification
 
 # Others
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'zipshort.net')
-SHORTLINK_API = environ.get('SHORTLINK_API', '6484c1a6c73a7f077ae8687d7b6cf4f5f7ce565a')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'smallshorts.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'c632738c0c95a1750a15a120d6ac5f26a2ffb756')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
